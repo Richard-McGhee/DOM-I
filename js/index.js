@@ -93,3 +93,18 @@ pItems[1].innerText = siteContent["main-content"]["about-content"];
 pItems[2].innerText = siteContent["main-content"]["services-content"];
 pItems[3].innerText = siteContent["main-content"]["product-content"];
 pItems[4].innerText = siteContent["main-content"]["vision-content"];
+
+// Contact Stuff
+
+h4Items[5].innerText = siteContent["contact"]["contact-h4"];
+pItems[5].innerText = siteContent["contact"]["address"];
+pItems[6].innerText = siteContent["contact"]["phone"];
+pItems[7].innerText = siteContent["contact"]["email"];
+
+h4Items[5].style = "color:blue";
+pItems[5].style = "color:red";
+pItems[6].style = "color:red";
+pItems[7].style = "color:red";
+
+// Footer Stuff
+pItems[8].innerText = siteContent["footer"]["copyright"];
