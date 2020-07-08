@@ -63,3 +63,14 @@ navBar.appendChild(newNavItem2);
 navBarItems.forEach(function (elem) {
   elem.style = "color:green; text-decoration: none;";
 });
+
+// CTA Stuff
+
+let ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute('src', siteContent["cta"]["img-src"]);
+
+let ctaH1 = document.querySelector("h1");
+ctaH1.innerText = siteContent["cta"]["h1"];
+
+let ctaBtn = document.querySelector("button");
+ctaBtn.innerText = siteContent["cta"]["button"];
