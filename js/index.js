@@ -74,3 +74,22 @@ ctaH1.innerText = siteContent["cta"]["h1"];
 
 let ctaBtn = document.querySelector("button");
 ctaBtn.innerText = siteContent["cta"]["button"];
+
+// Main Content
+
+let h4Items = document.querySelectorAll('h4');
+h4Items[0].innerText = siteContent["main-content"]["features-h4"];
+h4Items[1].innerText = siteContent["main-content"]["about-h4"];
+h4Items[2].innerText = siteContent["main-content"]["services-h4"];
+h4Items[3].innerText = siteContent["main-content"]["product-h4"];
+h4Items[4].innerText = siteContent["main-content"]["vision-h4"];
+
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+let pItems = document.querySelectorAll('p');
+pItems[0].innerText = siteContent["main-content"]["features-content"];
+pItems[1].innerText = siteContent["main-content"]["about-content"];
+pItems[2].innerText = siteContent["main-content"]["services-content"];
+pItems[3].innerText = siteContent["main-content"]["product-content"];
+pItems[4].innerText = siteContent["main-content"]["vision-content"];
